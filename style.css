@@ -1,0 +1,179 @@
+/* Basic styles */
+body {
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+ color: #333;
+}
+
+h1, h2 {
+ color: #070707;
+}
+
+header {
+ background-color: #c4b4b4;
+ padding: 20px;
+}
+
+nav ul {
+ list-style-type: none;
+ padding: 0;
+}
+
+nav ul li {
+ display: inline;
+ margin-right: 10px;
+}
+
+nav ul li a {
+ text-decoration: none;
+ color: #040404;
+}
+
+main {
+ padding: 20px;
+}
+
+footer {
+ background-color: #decece;
+ padding: 20px;
+ text-align: center;
+}
+section {
+    padding: 20px;
+   }
+   
+   section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+   }
+   
+   .job {
+    margin-bottom: 20px;
+   }
+   
+   .job h3 {
+    font-size: 18px;
+    color: #0b0b0b;
+    margin-bottom: 5px;
+   }
+   
+   .job h4 {
+    font-size: 16px;
+    color: #161616;
+    margin-bottom: 10px;
+   }
+   
+   .job ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+   }
+   
+   .job li {
+    color: #100f0f;
+    margin-bottom: 5px;
+   }
+   .education {
+    margin-bottom: 20px;
+   }
+   
+   .education h3 {
+    font-size: 18px;
+    color: #242424;
+    margin-bottom: 5px;
+   }
+   
+   .education h4 {
+    font-size: 16px;
+    color: #242323;
+    margin-bottom: 10px;
+   }
+   
+   .education p {
+    color: #100f0f;
+    margin-bottom: 5px;
+   }
+
+   .skill-section {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    vertical-align: top;
+    box-sizing: border-box;
+   }
+   
+   .skill-section h3 {
+    margin-bottom: 10px;
+   }
+   
+   .skill-section ul {
+    list-style-type: none;
+    padding: 0;
+   }
+   
+   .skill-section li {
+    margin-bottom: 5px;
+   }
+   /* Section styling */
+section {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #0b0b0b;
+    border-radius: 5px;
+   }
+   
+   /* Heading styling */
+   h2 {
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 24px;
+    color: #100f0f;
+   }
+   
+   /* List styling */
+   ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+   }
+   
+   /* List item styling */
+   li {
+    margin: 5px 0;
+    padding: 5px 0;
+    font-size: 16px;
+    color: #100f0f;
+   }
+   /* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Elements */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
